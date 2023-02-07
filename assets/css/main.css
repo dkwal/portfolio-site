@@ -37,6 +37,34 @@ ol, ul {
 	list-style: none;
 }
 
+.profile-pic > img {
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+
+.resume-background {
+	position: absolute;
+	z-index: 1;
+}
+
+#resume-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#resume {
+	display: flex;
+	justify-content: center;
+}
+
+#resume > img {
+	z-index: 3;
+	height: 300px;
+	width: auto;
+}
+
 blockquote, q {
 	quotes: none;
 }
